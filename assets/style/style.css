@@ -467,16 +467,11 @@
     border-radius: 60px;
     order: -1;
   }
-
-  .container div:last-child {
-    display: none;
-  }
   header {
     height: 100vh;
     position: sticky;
     top: 0;
   }
-
   nav {
     background-color: #fef7e2;
     display: flex;
@@ -484,7 +479,6 @@
     width: 230px;
     padding: 1rem;
   }
-
   main {
     display: flex;
     flex-direction: column;
@@ -505,7 +499,7 @@
     justify-content: space-between;
   }
   .card {
-    width: 23%;
+    width: 19%;
     border-radius: 50px;
     margin-bottom: 20px;
     background-color: #fef7e2;
@@ -561,7 +555,7 @@
   }
   article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #fef7e2;
     padding: 1.5em;
     border-radius: 40px;
@@ -574,6 +568,7 @@
   }
   article img {
     width: 100%;
-    margin: 2em 0 1em 0;
+    order: -1;
+    margin-right: 1.5em;
   }
 }
